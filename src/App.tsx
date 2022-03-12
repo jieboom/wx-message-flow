@@ -1,22 +1,26 @@
-import { useEffect, useRef } from 'react'
-import  './App.css'
+import { useEffect } from 'react';
+import  './App.css';
+import { messageList } from './data';
+import './plugins/register';
+import { getPlugin } from './plugins';
+
+ 
 const App = () => {
-  const wrapper3Ref  = useRef(null)
-  const wrapper2Ref = useRef(null)
-  
   useEffect(() => {
-     new IntersectionObserver(entry => {
-      console.log(entry);
-    },{
-      root:wrapper2Ref.current
-    })
+    
+  })
+  const renderMessageList = messageList.map(message => {
+    const Message = getPlugin(message.MType,message.MBody?.subType)
+    return (
+      <li className='message-item' key={message.Mid}>
+        <Message {...message}></Message>
+      </li>
+    )
   })
   return (
-    <div className="wrapper1">
-       <div className="wrapper2" ref={wrapper2Ref}>
-          <div className="wrapper3" ref={wrapper3Ref}></div>
-       </div>
-    </div>
+   <ul className='message-list'>
+    {renderMessageList}
+   </ul>
   )
 }
 

@@ -1,0 +1,16 @@
+.message-picture-content{
+    background: transparent;
+    padding: 0;
+}
+.message-picture-image{
+    width: 160px;
+    height: 100px;
+    border-radius: 10px;
+}
+.message-picture__self .message-picture-content{
+    background: transparent;
+    text-align: right;
+}
+.message-picture__self .message-picture-content::after{
+   display: none;
+}

@@ -1,0 +1,22 @@
+.message-card-content{
+    background-color: #fff !important;
+}
+.message-card-content::after{
+    display: none;
+}
+.message-card-title{
+    font-weight: bold;
+    color: #000;
+}
+.message-card-desc{
+    font-size: 14px;
+}
+.message-card-bottom{
+    display: flex;
+}
+.message-card-desc{
+    margin-right: 5px;
+}
+.message-card-cover{
+    border-radius: 3px;
+}
