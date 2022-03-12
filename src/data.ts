@@ -29,7 +29,7 @@ export interface Message<BodyType> {
     MBody: BodyType
 }
 export const messageList: Message<MSomeBodyType>[] = [{
-    Mid: '',
+    Mid: Math.random().toString(),
     MtimeStamp: 1647084102166,
     MType: 'system',
     MBody: {
@@ -37,8 +37,8 @@ export const messageList: Message<MSomeBodyType>[] = [{
         content: '231312312313',
     }
 }, {
-    Mid: '',
-    MtimeStamp: 123,
+    Mid: Math.random().toString(),
+    MtimeStamp: 1647084102166,
     MType: 'text',
     MBody: {
         isSelf: false,
@@ -48,8 +48,8 @@ export const messageList: Message<MSomeBodyType>[] = [{
     }
 },
 {
-    Mid: '',
-    MtimeStamp: 123,
+    Mid: Math.random().toString(),
+    MtimeStamp: 1647084102166,
     MType: 'text',
     MBody: {
         isSelf: true,
@@ -59,8 +59,8 @@ export const messageList: Message<MSomeBodyType>[] = [{
     }
 },
 {
-    Mid: '',
-    MtimeStamp: 123,
+    Mid: Math.random().toString(),
+    MtimeStamp: 1647084102166,
     MType: 'system',
     MBody: {
         isSelf: true,
@@ -69,8 +69,8 @@ export const messageList: Message<MSomeBodyType>[] = [{
     }
 },
 {
-    Mid: '',
-    MtimeStamp: 123,
+    Mid: Math.random().toString(),
+    MtimeStamp: 1647084102166,
     MType: 'picture',
     MBody: {
         isSelf: true,
@@ -79,8 +79,8 @@ export const messageList: Message<MSomeBodyType>[] = [{
         nickName: '丽丽'
     }
 }, {
-    Mid: '',
-    MtimeStamp: 123,
+    Mid: Math.random().toString(),
+    MtimeStamp: 1647084102166,
     MType: 'text',
     MBody: {
         isSelf: false,
@@ -90,8 +90,8 @@ export const messageList: Message<MSomeBodyType>[] = [{
     }
 },
 {
-    Mid: '',
-    MtimeStamp: 123,
+    Mid: Math.random().toString(),
+    MtimeStamp: 1647084102166,
     MType: 'text',
     MBody: {
         isSelf: true,
@@ -101,8 +101,8 @@ export const messageList: Message<MSomeBodyType>[] = [{
     }
 },
 {
-    Mid: '',
-    MtimeStamp: 123,
+    Mid: Math.random().toString(),
+    MtimeStamp: 1647084102166,
     MType: 'card',
     MBody: {
         isSelf: true,
@@ -116,8 +116,8 @@ export const messageList: Message<MSomeBodyType>[] = [{
     }
 },
 {
-    Mid: '',
-    MtimeStamp: 123,
+    Mid: Math.random().toString(),
+    MtimeStamp: 1647084102166,
     MType: 'text',
     MBody: {
         isSelf: false,
@@ -127,8 +127,8 @@ export const messageList: Message<MSomeBodyType>[] = [{
     }
 },
 {
-    Mid: '',
-    MtimeStamp: 123,
+    Mid: Math.random().toString(),
+    MtimeStamp: 1647084102166,
     MType: 'system',
     MBody: {
         isSelf: true,
@@ -137,8 +137,8 @@ export const messageList: Message<MSomeBodyType>[] = [{
     }
 },
 {
-    Mid: '',
-    MtimeStamp: 123,
+    Mid: Math.random().toString(),
+    MtimeStamp: 1647084102166,
     MType: 'text',
     MBody: {
         content: '周末加我一个',
