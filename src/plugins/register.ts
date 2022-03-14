@@ -18,7 +18,3 @@ setPlugin(WebLink,'card','webLink')
 
 
 
-// todo 理解 & 与 |
-// const test = (fn:(prop: string & number) =>void) => {};
-// const fn = (prop:string) => {}
-// test( (prop:string  ) => {} )
