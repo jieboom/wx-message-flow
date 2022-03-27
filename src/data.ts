@@ -161,3 +161,15 @@ export const messageList: Message<MSomeBodyType>[] = [
     },
   },
 ];
+export function generateMessageList(times: number) {
+  if (Math.floor(times) < 1)
+    throw new Error("times must is greater than or equal 1");
+  const list = [];
+  for (let i = 0; i < times; i++) {
+    list.push(...JSON.parse(JSON.stringify(messageList)));
+  }
+  return list.map((message) => {
+    message.Mid = Math.random().toString();
+    return message;
+  });
+}

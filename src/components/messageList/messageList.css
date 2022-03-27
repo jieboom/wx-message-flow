@@ -1,3 +1,10 @@
 .message-list {
-  height: 100%;
+  overflow: scroll;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+}
+.message-item {
+  margin-bottom: 10px;
 }

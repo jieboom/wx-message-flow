@@ -1,9 +1,7 @@
 import "./App.css";
-import { messageList } from "./data";
-import MessageList from "./components/messageList/messageList";
-
+import LazyMessageList from "./components/lazyMessageList/lazyMessageList";
 const App = () => {
-  return <MessageList messageList={messageList} />;
+  return <LazyMessageList />;
 };
 
 export default App;
