@@ -1,9 +1,8 @@
-@import './asset/common.css';
-.message-list{
-    padding: 10px;
-    font-size: 16px;
-    color: #333;
-}
-.message-item{
-    margin-bottom: 10px;
+@import "./asset/common.css";
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
 }
